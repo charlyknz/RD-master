@@ -9,7 +9,6 @@ MetaMultistab: contains meta-analysis
 response-diversity-pulse-pert: contains model simulations
 
   
-## Running title: Response diversity under pulse disturbance 
 
 ### Author list:
 Charlotte Kunze: 0000-0002-1130-7417, charlotte.kunze@idiv.de *. 
