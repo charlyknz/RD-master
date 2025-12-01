@@ -1,0 +1,26 @@
+name: Update submodules on subrepo change
+
+on:
+  repository_dispatch:
+    types: [update_submodule]
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout master repo with submodules
+        uses: actions/checkout@v4
+        with:
+          submodules: true
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Update submodules to latest commits
+        run: |
+          git submodule update --remote --merge
+          git add .
+          git commit -m "Auto-update submodule pointers" || echo "No changes to commit"
+
+      - name: Push updated submodule pointers
+        run: |
+          git push
