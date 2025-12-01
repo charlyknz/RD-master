@@ -1,5 +1,5 @@
 # Master repository 
-R code for the analyses in "Species interactions determine the importance of response diversity for community stability to pulse disturbances" https://doi.org/10.22541/au.174498373.31851247/v1
+R code for the analyses in "Species interactions determine the importance of response diversity for community stability to pulse disturbances" in Ecology Letters (2025)
 
 
 ## Submodules
