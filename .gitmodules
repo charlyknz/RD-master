@@ -1,0 +1,6 @@
+[submodule "MetaMultistab"]
+	path = MetaMultistab
+	url = https://github.com/charlyknz/MetaMultistab
+[submodule "response-diversity-pulse-pert"]
+	path = response-diversity-pulse-pert
+	url = https://github.com/charlyknz/response-diversity-pulse-pert
